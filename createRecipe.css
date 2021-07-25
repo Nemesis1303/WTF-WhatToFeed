@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color:#DDF7DA;
+  font-family: 'Brush Script MT', cursive;
+}
+
+input[type=text] {
+	width: 70%;
+	height: 4%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	float: left;
+	font-size: 30px;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	font-size: 30px;
+	float: right;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 70px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #6BAB63	;
+	font-family: 'Brush Script MT', cursive;	
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #DDF7DA;
+	padding: 20px;
+}
+
+.col-label {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-input {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}

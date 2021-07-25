@@ -1,0 +1,300 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4B7846;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 60px;
+  text-decoration: none;
+  font-size: 80px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f2f2f2;
+  color: #4B7846;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4B7846	;
+  color: white;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color:#DDF7DA;
+  font-family: 'Brush Script MT', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 40px;
+}
+
+.left {
+  width: 40%;
+  height: 1600px;
+}
+
+.right {
+  width: 60%;
+  height: 1600px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-right-up {
+	height: 500px;
+	padding-left: 130px;
+}
+
+.row-left-down {
+	height: 1100px;
+	padding-left: 130px;
+}
+
+.row-right-up-title {
+	float: left;
+	width: 20%;
+	margin-top: 6px;
+}
+
+.row-right-up-recipe {
+	float: left;
+	width: 40%;
+	margin-top: 6px;
+}
+
+.row-right-up-content {
+	float: left;
+	width: 30%;
+	margin-top: 6px;
+}
+
+.row-right-up-button {
+	float: right;
+	width: 10%;
+	margin-top: 6px;
+}
+
+.paragraphDesc {
+	font-size: 80px;
+	text-align: justify;
+	font-family: 'Brush Script MT', cursive;
+}
+.descriptionDiv {
+	padding-right: 60px;
+  	padding-left: 60px;
+	text-align: justify;
+	background-color:#B7C5B5;
+}
+
+.labelBig {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	font-size: 100px;
+	float: left;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 70px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #6BAB63	;
+	font-family: 'Brush Script MT', cursive;	
+}
+
+input[type=text] {
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 60px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 1500px;
+}
+
+var {
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 60px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #DDF7DA	;
+}
+
+/*Container row-left-down (filtering)*/
+.container-row-left-down {
+	border-radius: 5px;
+	background-color:#B7C5B5;
+	padding: 20px;
+	font-family: 'Brush Script MT', cursive;
+}
+
+.col-label {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-input {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+.mySlides {display: none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 6000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.imgRecipe {
+  border: 5px solid #555;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.imgSrcoll {
+	vertical-align: middle; 
+	border-radius: 50%;
+	height: 1300px;
+}
+
+table, th, td {
+  border: 1px;
+  padding: 5px;
+}
+table {
+  border-spacing: 15px;
+}
+
+.selectFiltering {
+	width:500px; 
+	height:90px; 
+	font-size: 80px;
+	font-family: 'Brush Script MT', cursive;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #DDF7DA	;
+	padding: 20px;
+	font-size: 80px;
+}

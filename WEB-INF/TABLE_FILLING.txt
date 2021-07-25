@@ -1,0 +1,52 @@
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Moussaka','Lorena','Grecia','Griega', 'Cocina Tradicional', 'Pelar las patatas. Limpiar las berenjenas. Sofreir el ajo, la cebolla, el romero y la carne. Prepara la bechamel. Montar y hornear.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Carne picada de cordero', '400', 'gramos');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('1', '1');
+
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Brioche de peras','Tania','Francia','Francesa', 'Alta cocina', 'Pelar las patatas. Preparar la masa con la levadura, leche tibia, el huevo y la harina. Dejar reposar la masa 1 hora. Formar 8 bolas de masa y esperar 30 minutos. Mezclar el agua con la miel. Clavar media pera en el centro de cada bola y hacer cortes por encima. Pintar las peras con una mezcla de agua y miel, y el brioche con huevo batido. Hornear durante 20 minutos.');								   
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Harina de fuerza', '500', 'gramos');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('2', '2');
+
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Arancini','Josemari','Italia','Italiana', 'Comida tradicional', 'Cocer el arroz. Añadir azafrán y 3 yemas de huevo a un cazo. Derretir mantequilla y rallar queso parmesano. Juntar todo con el arroz. Mezclar, dejar enfriar y formar los arancini y freirlos.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Arroz', '500', 'gramos');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('3', '3');
+
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Focaccia de cebolla','Marimar','Italia','Italiana', 'Comida tradicional', 'Juntar la levadura y el agua tibia. Mezclar el harina, el agua con la levadura, la sal y el aceite y amasar por 10 minutos. Tapar la masa y dejar descansar una hora, y mientras freir la cebolla. Dar forma a la masa y añadir la cebolla. Hornear.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Cebolla', '3', 'unidades');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('4', '4');
+
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Jiaozi','Shane','China','China', 'Comida tradicional', 'Mezclar la harina y la sal para formar la masa. Enharinar generosamente la masa y extender. Dorar ligeramente algunas cebollas verdes en un poco de aceite e ir añadiendo los ingredientes deseados. Rellenar los raviolis, cerrarlos con maicena y cocerlos al vapor.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Setas chinas rehidratadas', '20', 'unidades');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('5', '5');
+
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Kirschenmichel','Patrick','Alemania','Alemana', 'Cocina de suabia', 'Lavar y deshuesar las cerezas. Cortar el pan en rebanadas y colocar en un bol junto a la leche. Batir el azúcar, huevos, mantequilla y vainilla. Colocar la mitad de las cerezas en el fondo de un recipiente de horno, verter encima la masa y colocar las cerezas restantes en la parte superior. Esparcir la almendra laminada y hornear 50 minutos a 180 grados.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Cerezas', '400', 'gramos');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('6', '6');
+
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Paella','Gregorio','España','Valenciana', 'Comida tradicional', 'Incorporar el aceite en la paella cuando esté caliente y añadir sal a gusto. Sofreir la carne hasta que esté ligeramente dorada. Añadir el garrofón y las judías verdes. Incorporar la verdura, sazonarcon un poquito de sal. Añadir el tomate rallado. Añadir las especias y el agua. Cuando rompa hervir, añadir las especias y el arroz. Dejar cocer durante 18 minutos.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Aceite de oliva virgen extra', '25', 'gramos');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('7', '7');
+
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Pollo Gong Bao','Lin','China','China', 'Cocina oriental', 'Quitar la piel del pollo y deshuesarlo. Mientras se hace el caldo, poner el pollo cortado en dados a marinar con la salsa de soja, el vino de arroz, el azúcar a la sal. Un mínimo de 30 minutos. Freir todo en el wok.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Muslos de pollo', '250', 'gramos');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('8', '8');
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Ratatouille','Fran','Francia','Francesa', 'Especialidad regional', 'Cortar las berenjenas en rebanadas y dejar reposar. Preparar el resto de verduras. Colocar las rebanadas de verduras en espiral en una fuente de horno. En un cuenco mezclar unas 3 o 4 cucharadas de aceite con las hierbas provenzales y el ajo picado, y distribuir este aderezo por encima de las verduras. Cocinar 40 minutos en el horno.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Tomates', '2', 'unidades');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('9', '9');
+
+INSERT INTO RECIPES (RECIPE_NAME, AUTHOR, RECIPE_ORIGIN_COUNTRY, RECIPE_STYLE, RECIPE_TYPE, RECIPE_ELABORATION_STEPS) VALUES ('Roti Canai','Lydia','Malasia','China', 'Cocina oriental', 'Formar la masa con la harina, sal, huevo, mantequilla derretida, leche condensada y agua. Dividir la masa en 10 partes iguales, darles forma de bollito. Cubrir cada bollito con bastante mantequilla y colocarlos en una bandeja engrasada. Reposar en la nevera un día. Cocinar por unos minutos en una sartén y darle la vuelta. Continuar cocinando del otro lado.');
+INSERT INTO INGREDIENTS (INGREDIENT_NAME, INGREDIENT_QUANTITY, INGREDIENT_QUNATITY_UNITS) VALUES ('Mantequilla sin sal', '40', 'gramos');
+INSERT INTO INGREDIENTS_RECIPES (RECIPE_ID, INGREDIENT_ID) VALUES ('10', '10');
+
+
+
+
+
+
